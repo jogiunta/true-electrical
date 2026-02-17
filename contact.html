@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | True Electrical Contracting</title>
+  <meta name="description" content="Contact True Electrical Contracting for commercial electrical construction and service coordination.">
+  <link rel="icon" type="image/png" href="static/img/favicon.png">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <img src="static/img/logo-electric.png" alt="True Electrical Contracting logo">
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="commercial.html">Commercial</a>
+        <a href="residential.html">Residential</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-primary nav-phone" href="tel:7736855639">Call 773-685-5639</a>
+        <a class="btn btn-ghost" href="contact.html">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <p class="eyebrow">Contact</p>
+      <h1>Request Project Information</h1>
+      <p class="lead">Send your project details and we will follow up with scope and next steps.</p>
+    </section>
+
+    <section class="section container">
+      <div class="split contact-split">
+        <article class="card contact-card-compact">
+          <h3>Direct Contact</h3>
+          <p><strong>Phone:</strong> <a href="tel:7736855639">773-685-5639</a></p>
+          <p><strong>Email:</strong> <a href="mailto:brenda@trueelectrical.com">brenda@trueelectrical.com</a></p>
+        </article>
+
+        <article class="card">
+          <h3>Project Form</h3>
+          <form class="form" action="mailto:brenda@trueelectrical.com" method="post" enctype="text/plain">
+            <div>
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" required>
+            </div>
+            <div>
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" required>
+            </div>
+            <div>
+              <label for="service">Service Type</label>
+              <select id="service" name="service">
+                <option>Commercial Construction</option>
+                <option>Incoming Utility Service</option>
+                <option>Power Distribution</option>
+                <option>Fire Alarm / Low Voltage</option>
+                <option>Residential Service</option>
+              </select>
+            </div>
+            <div>
+              <label for="message">Project Details</label>
+              <textarea id="message" name="message"></textarea>
+            </div>
+            <button class="btn btn-primary" type="submit">Send Request</button>
+          </form>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-row">
+      <span><a href="tel:7736855639">773-685-5639</a> | <a href="mailto:brenda@trueelectrical.com">brenda@trueelectrical.com</a></span>
+    </div>
+  </footer>
+  <script src="static/js/main.js"></script>
+</body>
+</html>
