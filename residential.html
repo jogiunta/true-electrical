@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Residential Services | True Electrical Contracting</title>
-  <meta name="description" content="Residential electrical services including panel upgrades, load calculations, EV charging, and smart home systems.">
+  <title>Residential Electrical Service | True Electrical</title>
+  <meta name="description" content="Residential electrical service in Chicago including panel upgrades, lighting, EV charging, troubleshooting, and repairs.">
   <link rel="icon" type="image/png" href="static/img/favicon.png">
   <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html">
-        <img src="static/img/logo-electric.png" alt="True Electrical Contracting logo">
+      <a class="brand" href="index.html" aria-label="True Electrical home">
+        <img src="static/img/logo-electric.png" alt="True Electrical logo">
       </a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Home</a>
@@ -21,7 +21,7 @@
         <a href="contact.html">Contact</a>
       </nav>
       <div class="nav-actions">
-        <a class="btn btn-primary nav-phone" href="tel:7736855639">Call 773-685-5639</a>
+        <a class="btn btn-primary nav-phone" href="tel:7736855639">Call or Text</a>
         <a class="btn btn-ghost" href="contact.html">Contact</a>
       </div>
     </div>
@@ -30,29 +30,25 @@
   <main>
     <section class="hero container">
       <p class="eyebrow">Residential</p>
-      <h1>Residential Services</h1>
-      <p class="lead">Load calculations, service upgrades, EV charging, and low voltage integration.</p>
+      <h1>Residential Electrical Service</h1>
+      <p class="lead">Panel upgrades, lighting, EV charging, dedicated circuits, troubleshooting, and clean finish work.</p>
     </section>
 
     <section class="section container">
       <div class="panel">
-        <h2 class="section-title">Residential Services</h2>
-        <div class="grid-2" style="margin-top:16px;">
-          <article class="card">
-            <h3>Capacity and Safety</h3>
-            <ul class="list">
-              <li>Official load calculations for new equipment and additions</li>
-              <li>Panel upgrades and service upgrades</li>
-              <li>Branch circuit additions and final terminations</li>
-            </ul>
+        <h2 class="section-title">Residential services</h2>
+        <div class="services-grid">
+          <article class="card service-card">
+            <h3>Upgrades</h3>
+            <p>Panel upgrades, dedicated circuits, service improvements, and remodel support.</p>
           </article>
-          <article class="card">
-            <h3>Comfort and Technology</h3>
-            <ul class="list">
-              <li>EV charger installation</li>
-              <li>Smart lighting control systems</li>
-              <li>Voice/data and low voltage integration</li>
-            </ul>
+          <article class="card service-card">
+            <h3>Lighting</h3>
+            <p>Interior and exterior lighting, fixture changes, and polished finish work.</p>
+          </article>
+          <article class="card service-card">
+            <h3>Repairs</h3>
+            <p>Troubleshooting, corrections, replacements, and everyday electrical service calls.</p>
           </article>
         </div>
       </div>
@@ -60,28 +56,38 @@
 
     <section class="section container">
       <div class="panel">
-        <h2 class="section-title">Residential Project Gallery</h2>
-        <p class="section-sub">Lighting upgrades and finished residential electrical work.</p>
-        <div class="gallery-group">
-          <h3>Residential Lighting</h3>
-          <div class="photo-grid">
-            <figure class="photo-frame">
-              <div class="photo-placeholder">Residential Lighting Photo 1</div>
-              <figcaption>Kitchen and living area lighting</figcaption>
-            </figure>
-            <figure class="photo-frame">
-              <div class="photo-placeholder">Residential Lighting Photo 2</div>
-              <figcaption>Exterior lighting</figcaption>
-            </figure>
-            <figure class="photo-frame">
-              <div class="photo-placeholder">Residential Lighting Photo 3</div>
-              <figcaption>Panel and lighting upgrades</figcaption>
-            </figure>
+        <h2 class="section-title">Recent residential work</h2>
+        <div class="project-gallery-grid" id="residential-gallery-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="panel testimonial-panel">
+        <div class="section-heading">
+          <div>
+            <h2 class="section-title">Recent customer feedback</h2>
           </div>
         </div>
+        <div class="review-summary-card review-summary-card-inline">
+          <p class="review-stars-lg" aria-label="5 out of 5 stars">★★★★★</p>
+          <p class="review-count">5.0 Stars | 11 Reviews</p>
+        </div>
+        <div class="testimonial-grid" id="residential-testimonials-grid" aria-live="polite"></div>
       </div>
     </section>
 
+    <section class="section container">
+      <div class="panel final-cta">
+        <div>
+          <h2 class="section-title">Need residential electrical service?</h2>
+          <p class="section-sub">Call or text to talk through the work and schedule next steps.</p>
+        </div>
+        <div class="cta-bar">
+          <a class="btn btn-primary phone-primary" href="tel:7736855639">773-685-5639</a>
+          <a class="btn btn-ghost" href="mailto:brenda@trueelectrical.com">brenda@trueelectrical.com</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer class="footer">

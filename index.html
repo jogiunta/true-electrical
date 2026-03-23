@@ -65,6 +65,10 @@
       </aside>
     </section>
 
+    <div class="container hero-review-summary">
+      <a class="review-summary-link" href="#reviews" aria-label="5 out of 5 stars from 11 reviews">★★★★★ 5.0 Stars | 11 Reviews</a>
+    </div>
+
     <section class="section container landing-section">
       <div class="trust-strip panel">
         <div class="trust-strip-grid">
@@ -101,12 +105,25 @@
       <div class="panel">
         <div class="section-heading">
           <div>
-            <p class="kicker">Project Gallery</p>
             <h2 class="section-title">Recent electrical work</h2>
           </div>
-          <p class="section-sub">A mix of commercial and residential project photos from real jobs.</p>
         </div>
         <div class="project-gallery-grid" id="project-gallery-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section container landing-section" id="reviews">
+      <div class="panel testimonial-panel">
+        <div class="section-heading">
+          <div>
+            <h2 class="section-title">Reviews from recent customers</h2>
+          </div>
+        </div>
+        <div class="review-summary-card review-summary-card-inline">
+          <p class="review-stars-lg" aria-label="5 out of 5 stars">★★★★★</p>
+          <p class="review-count">5.0 Stars | 11 Reviews</p>
+        </div>
+        <div class="testimonial-grid" id="testimonials-grid" aria-live="polite"></div>
       </div>
     </section>
 
@@ -114,13 +131,21 @@
       <div class="panel before-after-section">
         <div class="section-heading">
           <div>
-            <p class="kicker">Before &amp; After</p>
-            <h2 class="section-title">Detailed transformations</h2>
+            <h2 class="section-title">Commercial tennis court work</h2>
           </div>
-          <p class="section-sub">Real before-and-after project photos grouped from the paired image files in the repo.</p>
         </div>
-        <div class="before-after-spotlight" id="before-after-spotlight" aria-live="polite"></div>
-        <div class="before-after-grid before-after-grid-home" id="before-after-grid" aria-live="polite"></div>
+        <div class="partnership-note">
+          <p>Commercial Tennis Court Work completed in partnership with Sports Interiors.</p>
+          <p>For tennis court projects, please contact Sports Interiors.</p>
+        </div>
+        <div class="ba-slider before-after-slider" data-ba-slider aria-label="Before and after project slideshow">
+          <div class="ba-slides" id="before-after-slides" aria-live="polite"></div>
+          <div class="ba-controls">
+            <button class="btn btn-ghost ba-btn" type="button" data-prev aria-label="Previous before and after project">Previous</button>
+            <div class="ba-dots" data-dots aria-label="Select before and after project"></div>
+            <button class="btn btn-ghost ba-btn" type="button" data-next aria-label="Next before and after project">Next</button>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -147,8 +172,6 @@
       <span><a href="mailto:brenda@trueelectrical.com">brenda@trueelectrical.com</a></span>
     </div>
   </footer>
-
-  <a class="mobile-call-bar" href="tel:7736855639">Call or Text 773-685-5639</a>
   <script src="static/js/main.js"></script>
 </body>
 </html>

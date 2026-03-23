@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Commercial Services | True Electrical Contracting</title>
-  <meta name="description" content="Commercial electrical construction services including utility service, power distribution, controls, and HVAC/mechanical power connection.">
+  <title>Commercial Electrical Work | True Electrical</title>
+  <meta name="description" content="Commercial electrical work in Chicago including buildouts, lighting, power distribution, controls, EV charging, and service.">
   <link rel="icon" type="image/png" href="static/img/favicon.png">
   <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
-      <a class="brand" href="index.html">
-        <img src="static/img/logo-electric.png" alt="True Electrical Contracting logo">
+      <a class="brand" href="index.html" aria-label="True Electrical home">
+        <img src="static/img/logo-electric.png" alt="True Electrical logo">
       </a>
       <nav class="nav-links" aria-label="Main navigation">
         <a href="index.html">Home</a>
@@ -21,7 +21,7 @@
         <a href="contact.html">Contact</a>
       </nav>
       <div class="nav-actions">
-        <a class="btn btn-primary nav-phone" href="tel:7736855639">Call 773-685-5639</a>
+        <a class="btn btn-primary nav-phone" href="tel:7736855639">Call or Text</a>
         <a class="btn btn-ghost" href="contact.html">Contact</a>
       </div>
     </div>
@@ -29,197 +29,72 @@
 
   <main>
     <section class="hero container">
-      <p class="eyebrow">Commercial Focus</p>
-      <h1>Commercial Services</h1>
-      <p class="lead">Incoming utility services, blueprint drawings, distribution equipment, controls, low voltage systems, and final equipment connections.</p>
+      <p class="eyebrow">Commercial</p>
+      <h1>Commercial Electrical Work</h1>
+      <p class="lead">Buildouts, lighting, controls, EV charging, and service work for commercial spaces across Chicago and nearby areas.</p>
     </section>
 
     <section class="section container">
       <div class="panel">
-        <h2 class="section-title">Project Photos</h2>
-        <p class="section-sub">See recent work first, then explore full details below.</p>
-        <div class="gallery-jump-nav">
-          <a class="chip-link" href="#sports-gallery">Sports Before/After</a>
-          <a class="chip-link" href="#ev-gallery">Commercial EV</a>
-          <a class="chip-link" href="#lighting-piping-gallery">Lighting and Piping</a>
+        <h2 class="section-title">Commercial scope</h2>
+        <div class="services-grid">
+          <article class="card service-card">
+            <h3>Buildouts</h3>
+            <p>Tenant improvements, lighting layouts, panels, branch circuits, and finished electrical work.</p>
+          </article>
+          <article class="card service-card">
+            <h3>Equipment + Controls</h3>
+            <p>Power distribution, controls, equipment connections, and support work that keeps projects moving.</p>
+          </article>
+          <article class="card service-card">
+            <h3>Service Work</h3>
+            <p>Troubleshooting, corrections, upgrades, and clean finish work in existing commercial spaces.</p>
+          </article>
         </div>
+      </div>
+    </section>
 
-        <div class="ba-slider" data-ba-slider aria-label="Sports interior before and after slideshow">
-          <div class="ba-slides">
-            <article class="ba-slide is-active" data-slide>
-              <h3>Court Upgrade 1</h3>
-              <div class="photo-pair">
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">Before Photo</div>
-                  <figcaption>Before</figcaption>
-                </figure>
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">After Photo</div>
-                  <figcaption>After</figcaption>
-                </figure>
-              </div>
-            </article>
-            <article class="ba-slide" data-slide>
-              <h3>Court Upgrade 2</h3>
-              <div class="photo-pair">
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">Before Photo</div>
-                  <figcaption>Before</figcaption>
-                </figure>
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">After Photo</div>
-                  <figcaption>After</figcaption>
-                </figure>
-              </div>
-            </article>
-            <article class="ba-slide" data-slide>
-              <h3>Court Upgrade 3</h3>
-              <div class="photo-pair">
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">Before Photo</div>
-                  <figcaption>Before</figcaption>
-                </figure>
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">After Photo</div>
-                  <figcaption>After</figcaption>
-                </figure>
-              </div>
-            </article>
+    <section class="section container">
+      <div class="panel">
+        <h2 class="section-title">Recent commercial work</h2>
+        <div class="project-gallery-grid" id="commercial-gallery-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section container">
+      <div class="panel before-after-section">
+        <div class="section-heading">
+          <div>
+            <h2 class="section-title">Commercial tennis court work</h2>
           </div>
+        </div>
+        <div class="partnership-note">
+          <p>Commercial Tennis Court Work completed in partnership with Sports Interiors.</p>
+          <p>For tennis court projects, please contact Sports Interiors.</p>
+        </div>
+        <div class="ba-slider before-after-slider" data-ba-slider aria-label="Commercial tennis court project slideshow">
+          <div class="ba-slides" id="commercial-before-after-slides" aria-live="polite"></div>
           <div class="ba-controls">
-            <button class="btn btn-ghost ba-btn" type="button" data-prev aria-label="Previous project">Previous</button>
-            <div class="ba-dots" data-dots aria-label="Select slide"></div>
-            <button class="btn btn-ghost ba-btn" type="button" data-next aria-label="Next project">Next</button>
+            <button class="btn btn-ghost ba-btn" type="button" data-prev aria-label="Previous tennis court project">Previous</button>
+            <div class="ba-dots" data-dots aria-label="Select tennis court project"></div>
+            <button class="btn btn-ghost ba-btn" type="button" data-next aria-label="Next tennis court project">Next</button>
           </div>
         </div>
       </div>
     </section>
 
     <section class="section container">
-      <div class="panel">
-        <h2 class="section-title">Commercial Service Scope</h2>
-        <div class="grid-2" style="margin-top:16px;">
-          <article class="card">
-            <h3>Utility and Distribution</h3>
-            <ul class="list">
-              <li>Incoming utility services, underground and overhead, up to 480V</li>
-              <li>Blueprint drawings for electrical scope and planning</li>
-              <li>Client utility coordination with utility engineers</li>
-              <li>Switchboards, panel boards, load centers, transformers</li>
-              <li>Generators and transfer switches</li>
-            </ul>
-          </article>
-          <article class="card">
-            <h3>Equipment and Controls</h3>
-            <ul class="list">
-              <li>Lighting controls from contactors to programmable smart systems</li>
-              <li>Power and final electrical connection for HVAC and mechanical systems</li>
-              <li>Connections for motors, fire pumps, starters, and VFDs</li>
-              <li>Low voltage voice and data wiring</li>
-            </ul>
-          </article>
+      <div class="panel final-cta">
+        <div>
+          <h2 class="section-title">Need commercial electrical work priced?</h2>
+          <p class="section-sub">Call or text to talk through the scope and next steps.</p>
+        </div>
+        <div class="cta-bar">
+          <a class="btn btn-primary phone-primary" href="tel:7736855639">773-685-5639</a>
+          <a class="btn btn-ghost" href="mailto:brenda@trueelectrical.com">brenda@trueelectrical.com</a>
         </div>
       </div>
     </section>
-
-    <section class="section container">
-      <div class="panel">
-        <h2 class="section-title">Representative Project Types</h2>
-        <div class="grid-3" style="margin-top:16px;">
-          <article class="card">
-            <h3>New Service Buildouts</h3>
-            <p>Incoming utility service with coordinated distribution design and downstream panel infrastructure.</p>
-            <p class="meta">Up to 480V service scope.</p>
-          </article>
-          <article class="card">
-            <h3>HVAC and Mechanical Power</h3>
-            <p>Power and final connection support for mechanical systems, motors, starters, and VFD-driven loads.</p>
-            <p class="meta">Installed to match construction schedule constraints.</p>
-          </article>
-          <article class="card">
-            <h3>Fire Alarm and Data Systems</h3>
-            <p>Complete fire alarm installation with monitoring scope plus voice and data cabling.</p>
-            <p class="meta">Mass notification, elevator recall, sprinkler monitoring.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section container">
-      <div class="panel">
-        <h2 class="section-title">Project Gallery</h2>
-        <p class="section-sub">Before/after sports interiors, commercial EV charging, and commercial lighting and piping work.</p>
-
-        <div class="gallery-group">
-          <h3 id="sports-gallery">Sports Interiors (Tennis and Pickleball) Before and After</h3>
-          <div class="before-after-grid">
-            <article class="photo-card">
-              <h4>Project 1</h4>
-              <div class="photo-pair">
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">Before Photo</div>
-                  <figcaption>Before</figcaption>
-                </figure>
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">After Photo</div>
-                  <figcaption>After</figcaption>
-                </figure>
-              </div>
-            </article>
-            <article class="photo-card">
-              <h4>Project 2</h4>
-              <div class="photo-pair">
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">Before Photo</div>
-                  <figcaption>Before</figcaption>
-                </figure>
-                <figure class="photo-frame">
-                  <div class="photo-placeholder">After Photo</div>
-                  <figcaption>After</figcaption>
-                </figure>
-              </div>
-            </article>
-          </div>
-        </div>
-
-        <div class="gallery-group">
-          <h3 id="ev-gallery">Commercial EV Charger Installations</h3>
-          <div class="photo-grid">
-            <figure class="photo-frame">
-              <div class="photo-placeholder">EV Charger Photo 1</div>
-              <figcaption>Commercial EV charger installation</figcaption>
-            </figure>
-            <figure class="photo-frame">
-              <div class="photo-placeholder">EV Charger Photo 2</div>
-              <figcaption>Service and conduit routing</figcaption>
-            </figure>
-            <figure class="photo-frame">
-              <div class="photo-placeholder">EV Charger Photo 3</div>
-              <figcaption>Final mounted charger</figcaption>
-            </figure>
-          </div>
-        </div>
-
-        <div class="gallery-group">
-          <h3 id="lighting-piping-gallery">Commercial Lighting and Piping</h3>
-          <div class="photo-grid">
-            <figure class="photo-frame">
-              <div class="photo-placeholder">Lighting Photo 1</div>
-              <figcaption>Fixture layout and install</figcaption>
-            </figure>
-            <figure class="photo-frame">
-              <div class="photo-placeholder">Piping Photo 1</div>
-              <figcaption>Conduit and pipe runs</figcaption>
-            </figure>
-            <figure class="photo-frame">
-              <div class="photo-placeholder">Lighting/Piping Photo 2</div>
-              <figcaption>Completed section</figcaption>
-            </figure>
-          </div>
-        </div>
-      </div>
-    </section>
-
   </main>
 
   <footer class="footer">
