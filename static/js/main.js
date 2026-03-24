@@ -131,7 +131,7 @@
 
   var beforeAfterProjects = [
     {
-      title: 'Tennis court lighting upgrade 2',
+      title: 'The Pickle Place in West End, NC',
       before: {
         src: 'static/img/Tennis2-before.jpeg',
         alt: 'Before photo of commercial tennis court project area',
@@ -146,7 +146,7 @@
       }
     },
     {
-      title: 'Tennis court lighting upgrade 3',
+      title: 'Private residential in Park City, Utah',
       before: {
         src: 'static/img/Tennis3-before.jpeg',
         alt: 'Before photo of tennis court electrical work',
@@ -161,7 +161,7 @@
       }
     },
     {
-      title: 'Tennis court lighting upgrade 4',
+      title: 'Philadelphia Cricket Club',
       before: {
         src: 'static/img/Tennis4-before.jpeg',
         alt: 'Before photo of tennis court lighting area',
@@ -176,7 +176,7 @@
       }
     },
     {
-      title: 'Tennis court lighting upgrade 5',
+      title: 'Former St. Cornelius Church in Chicago',
       before: {
         src: 'static/img/Tennis5-before.jpeg',
         alt: 'Before photo of tennis court project',
@@ -191,7 +191,7 @@
       }
     },
     {
-      title: 'Tennis court lighting upgrade 6',
+      title: 'Wild Wood Racquet and Wellness, Fort Wayne, IN',
       before: {
         src: 'static/img/Tennis6-before.jpeg',
         alt: 'Before photo of final commercial tennis court area',
